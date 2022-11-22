@@ -63,7 +63,6 @@ session_start();
       <a href="#historia">HISTORIA</a>
       <a href="#contactanos">CONTACTANOS</a>
       <a href="carrito/productos.php">PRODUCTOS</a>
-      <a href="carrito/productos.php">COMPRAR</a>
       <a href=""> <ul class="menu-horizontal">
                   <li>
                                 <a href="#">HOLA</a>
