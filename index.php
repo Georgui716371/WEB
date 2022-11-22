@@ -1,5 +1,8 @@
-<?php
-session_start();
+<?php 
+   session_start();
+   if (!isset($_SESSION['username'])) {
+    $_SESSION['username']="";
+   }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +68,7 @@ session_start();
       <a href="carrito/productos.php">PRODUCTOS</a>
       <a href=""> <ul class="menu-horizontal">
                   <li>
-                                <a href="#">HOLA</a>
+                                <a href="#">HOLA <?php echo $_SESSION['username'] ?></a>
                                 <ul class="menu-vertical">
                                   <li><a href="login.php">LOGIN</a></li>
                                   <li><a href="registro.php">REGISTRARSE</a></li>
@@ -133,7 +136,6 @@ session_start();
           servicio y con variedad de productos. Los trabajadores están muy 
           capacitados para cumplir con el desarrollo de esta competencia.</p>
           <center><img class="img1" src="img/vision.png" alt="mano" width="100" weight="100 "></center>
-
       </div>
     </div>
 

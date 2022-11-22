@@ -1,3 +1,10 @@
+<?php 
+   session_start();
+   if (!isset($_SESSION['username'])) {
+    $_SESSION['username']="";
+   }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -142,7 +149,7 @@ opacity: 0;
         <a href="carrito/productos.php">COMPRAR</a>
         <a href=""> <ul class="menu-horizontal">
                               <li>
-                                <a href="#">Hola </a>
+                                <a href="#">HOLA <?php echo $_SESSION['username'] ?> </a>
                                 <ul class="menu-vertical">
                                   <li><a href="../login.php">LOGIN</a></li>
                                   <li><a href="../registro.php">CERRAR SESION</a></li>

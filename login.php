@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,7 +70,6 @@
 
     </script>
   </div>
-
   <div class="container-fluid">
     <footer class="py-5 p-4 mt-5">
       <div class="row">
@@ -79,24 +77,24 @@
           <h5>PIZZA AL PASO</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="" class="nav-link p-0 text-muted">NOSOTROS</a>
+              <a href="#nosostros " class="nav-link p-0 text-muted">NOSOTROS</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">HISTORIA</a>
+              <a href="#historia" class="nav-link p-0 text-muted">HISTORIA</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">CONTACTANOS</a>
+              <a href="#contactanos" class="nav-link p-0 text-muted">CONTACTANOS</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">PRODUCTOS</a>
+              <a href="#productos" class="nav-link p-0 text-muted">PRODUCTOS</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">COMPRAR</a>
+              <a href="#productos" class="nav-link p-0 text-muted">COMPRAR</a>
             </li>
           </ul>
         </div>
         <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+          <h5>OFERTAS</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
               <a href="librodereclamaciones.php" class="nav-link p-0 text-muted">LIBRO DE RECLAMACIONES</a>
@@ -105,21 +103,34 @@
               <a href="#" class="nav-link p-0 text-muted">OFERTAS</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">NOVEDADES</a>
+              <a href="#" class="nav-link p-0 text-muted">COMBOs</a>
             </li>
           </ul>
         </div>
 
         <div class="col-md-5 offset-md-1 mb-3">
           <form>
-            <h5>Envianos un correo</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
+            <h5>Envianos un correo 📨</h5>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Correo Electronico</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-              <button class="w-100 btn btn-lg btn-warning" type="button">Enviar</button>
+              <label for="newsletter1" class="visually-hidden"></label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico " />
+              <button class="btn btn-warning" type="button">Enviar 📤</button>
             </div>
           </form>
+          <div class="col-5 ">
+          <hr>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+             <span class="text-warning font-weight-bold"> RUC:</span> 10215555688   
+            </li>
+            <li class="nav-item mb-2">
+             <span class="text-warning font-weight-bold">Dirección:</span>La Libertad 141, Ica 11001  <i class="fa-solid fa-map" ></i>
+            </li>
+            <li class="nav-item mb-2">
+            <span class="text-warning font-weight-bold"> E-Mail:</span> societa4@hotmail.com  <i class="fa-solid fa-envelope"></i>
+            </li>
+          </ul>
+        </div>
         </div>
       </div>
 
@@ -127,17 +138,17 @@
         <p>&copy; 2022, Inc.Todos los derechos reservados.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://twitter.com/"><svg class="bi" width="24" height="24">
                 <use xlink:href="#twitter" />
               </svg></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://www.instagram.com/pizzas_al_paso/"><svg class="bi" width="24" height="24">
                 <use xlink:href="#instagram" />
               </svg></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://www.facebook.com/profile.php?id=100063580178149&sk=about"><svg class="bi" width="24" height="24">
                 <use xlink:href="#facebook" />
               </svg></a>
           </li>
@@ -145,7 +156,6 @@
       </div>
     </footer>
   </div>
-
 </body>
 
 </html>
