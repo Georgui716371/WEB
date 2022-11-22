@@ -289,16 +289,10 @@ session_start();
               <a href="librodereclamaciones.php" class="nav-link p-0 text-muted">LIBRO DE RECLAMACIONES</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">Features</a>
+              <a href="#" class="nav-link p-0 text-muted">OFERTAS</a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">About</a>
+              <a href="#" class="nav-link p-0 text-muted">COMBOs</a>
             </li>
           </ul>
         </div>
@@ -307,11 +301,25 @@ session_start();
           <form>
             <h5>Envianos un correo 📨</h5>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Correo Electronico</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-              <button class="btn btn-warning" type="button">Enviar</button>
+              <label for="newsletter1" class="visually-hidden"></label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico " />
+              <button class="btn btn-warning" type="button">Enviar 📤</button>
             </div>
           </form>
+          <div class="col-5 ">
+          <hr>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+             <span class="text-warning font-weight-bold"> RUC:</span> 10215555688   
+            </li>
+            <li class="nav-item mb-2">
+             <span class="text-warning font-weight-bold">Dirección:</span>La Libertad 141, Ica 11001  <i class="fa-solid fa-map" ></i>
+            </li>
+            <li class="nav-item mb-2">
+            <span class="text-warning font-weight-bold"> E-Mail:</span> societa4@hotmail.com  <i class="fa-solid fa-envelope"></i>
+            </li>
+          </ul>
+        </div>
         </div>
       </div>
 
@@ -319,17 +327,17 @@ session_start();
         <p>&copy; 2022, Inc.Todos los derechos reservados.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://twitter.com/"><svg class="bi" width="24" height="24">
                 <use xlink:href="#twitter" />
               </svg></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://www.instagram.com/pizzas_al_paso/"><svg class="bi" width="24" height="24">
                 <use xlink:href="#instagram" />
               </svg></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <a class="link-dark" href="https://www.facebook.com/profile.php?id=100063580178149&sk=about"><svg class="bi" width="24" height="24">
                 <use xlink:href="#facebook" />
               </svg></a>
           </li>

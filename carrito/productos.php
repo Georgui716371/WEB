@@ -175,7 +175,7 @@ opacity: 0;
       <div class=" card-color col-12 col-md-4 col-sm-6 col-sm-12">
         <div class=" card m-1">
           <div class="card-body d-flex flex-column">
-            <img src=""  width="280px" height="280px"  alt=""  class="justify-content-center ">
+            <img src=""  width="300px" height="300px"  alt=""  class="justify-content-center ">
             <h5 class="text-center titulo-producto">Titulo</h5>
             <div class="container d-flex align-items-center justify-content-between">
               <h6 class=" badge bg-secondary">PRECIO</h6>

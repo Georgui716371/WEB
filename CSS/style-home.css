@@ -452,7 +452,7 @@
 
       font-size: 3rem;
       font-weight: bold;
-      font-family: serif;
+      font-family:'Poppins';
 
     }
 
@@ -514,7 +514,7 @@
 
     .nosotros-div .menu-nosotros .columna-nosotros p {
 
-      font-family: serif;
+      font-family:'Poppins';
       font-weight: 1.2rem;
 
 
@@ -544,7 +544,7 @@
 
     .contact-form-content .title {
       font-size: 3rem;
-      font-family: serif;
+      font-family:'Poppins';
       font-weight: bold;
       color: var(--color-logo);
       padding: 1rem;

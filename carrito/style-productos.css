@@ -4,11 +4,13 @@
 *{
     font-family: 'Signika Negative', sans-serif;
 }
+:root {
+    --color-logo: #ff8c1a;
+}
 .titulo-producto{
     font-family: 'Signika Negative', sans-serif;
     padding: 5px;
     display: block;
-    border: 1px solid black;
 }
 .titulo-pagina{
     font-family: 'Signika Negative', sans-serif;
