@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@100;400&family=Rubik+Dirt&family=Rubik+Mono+One&family=Signika+Negative&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+.titulo-producto{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 5px;
+    display: block;
+    border: 1px solid black;
+}
+.titulo-pagina{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 5px;
+}

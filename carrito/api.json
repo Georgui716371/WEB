@@ -1,0 +1,86 @@
+[
+    {
+      "precio": 3,
+      "id": 1,
+      "title": "DOS BOLAS DE HELADO",
+      "thumbnailUrl":"https://cloudfront-eu-central-1.images.arcpublishing.com/larazon/SS2SFWAD3FEGZI5FYRXEO74I54.jpg"
+    },
+    {
+      "precio": 15,
+      "id": 2,
+      "title": "1 LITRO DE HELADO ",
+      "thumbnailUrl":"https://i.pinimg.com/originals/01/6e/5a/016e5a352ee868bac485e50e0dbb2935.png"
+
+    },
+    {
+      "precio":3.5,
+      "id": 3,
+      "title": "PORCION DE PIZZA",
+      "thumbnailUrl":"https://thumbs.dreamstime.com/b/la-%C3%BAltima-porci%C3%B3n-de-pizza-caja-una-deliciosa-pizzer%C3%ADa-con-deliciosas-bolas-queso-salchicha-y-paprika-212922514.jpg"
+
+    },
+    {
+      "precio": 21,
+      "id": 4,
+      "title": "MEDIO DISCO DE PIZZA",
+      "thumbnailUrl":"https://img.freepik.com/fotos-premium/pizza-pepperoni-mitad_80090-4051.jpg?w=2000"
+
+    },
+    {
+      "precio": 42,
+      "id": 5,
+      "title": "DISCO COMPLETO DE PIZZA",
+      "thumbnailUrl":"https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/M7ROUAC34ZCI7AU3WN7GF4TAUY.jpg"
+
+    },
+    {
+      "precio": 1.5,
+      "id": 6,
+      "title": "CAFE",
+      "thumbnailUrl":"https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+
+    },
+    {
+      "precio": 1.5,
+      "id": 7,
+      "title": "GASEOSA",
+      "thumbnailUrl":"https://img.freepik.com/foto-gratis/cola-helada-mesa_1339-8464.jpg?w=996&t=st=1668235291~exp=1668235891~hmac=1eec8584b7b122764e4056db31e8b9da138a7721de51feb0bb4c4bc81eeab74d"
+
+    },
+    {
+      "precio": 1,
+      "id": 8,
+      "title": "AGUA SIN GAS",
+      "thumbnailUrl":"https://img.freepik.com/foto-gratis/vista-lateral-agua-gas-vaso-sobre-tabla-cortar-madera-sobre-fondo-azul_140725-130399.jpg?w=996&t=st=1668235180~exp=1668235780~hmac=8171e5f3374674dd76925791574776679cf6494c64b18a056d282c4ed65f6de0"
+
+    },
+    {
+      "precio": 14.99,
+      "id": 9,
+      "title": "SANDWICH CON CHICHARRÓN",
+      "thumbnailUrl":"https://www.comedera.com/wp-content/uploads/2022/07/Pan-con-chicharron-limeno-shutterstock_1842217396.jpg"
+
+    },
+    {
+      "precio": 11.99,
+      "id": 10,
+      "title": "SANDWICH CON POLLO",
+      "thumbnailUrl":"https://www.recetasnestle.com.pe/sites/default/files/srh_recipes/8febc29258069e4ced2df3c390a63c4b.jpg"
+
+    },
+    {
+      "precio": 14.99,
+      "id": 11,
+      "title": "CAFE HELADO",
+      "thumbnailUrl":"https://cdn2.cocinadelirante.com/sites/default/files/images/2019/04/cafe-helado-casero-receta.jpg"
+
+    },
+    {
+      "precio": 14.99,
+      "id": 12,
+      "title": "CAFE AMERICANO",
+      "thumbnailUrl":"https://img.freepik.com/vector-gratis/cartel-cafe-taza-porcelana-blanca-realista-sobre-fondo-texturizado_1284-10871.jpg?w=740&t=st=1668234913~exp=1668235513~hmac=473d4a16ef95f67a7ad83740fce26315df7da5c3b8e2419458a0e1fd765acc4d"
+
+    }
+
+  ]

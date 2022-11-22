@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+    :root {
+      --color-logo: #ff8c1a;
+    }
+
+    .port{
+        font-size:large;
+        }
+
+    body::-webkit-scrollbar {
+      width: 15px;
+      /* width of the entire scrollbar */
+    }
+
+    body::-webkit-scrollbar-track {
+      background: white;
+      /* color of the tracking area */
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: var(--color-logo);
+
+    }
+
+    * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none !important;
+      /*border: 1px solid black;*/
+    }
+
+
+    html {
+      font-size: 12px;
+    }
+
+    header {
+
+      display: flex;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: aliceblue;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+      justify-content: space-evenly;
+      padding: 8px;
+      z-index: 100;
+    }
+
+    header .logo {
+
+      color: var(--color-logo);
+      font-size: 20px;
+
+
+    }
+
+    header span {
+
+      color: black;
+
+    }
+
+    header .navbar a {
+
+      margin-left: 20px;
+      color: black;
+      font-size: 15px;
+
+
+
+    }
+
+    header .navbar a:hover {
+      color: var(--color-logo);
+      background-color: aliceblue;
+    }
+
+    header .redes {
+      color: black;
+
+    }
+
+    header .redes i {
+      color: black;
+      padding: 10px;
+
+    }
+
+    header .redes i:hover {
+      color: var(--color-logo);
+    }
+
+    header input {
+      display: none;
+    }
+
+    header label {
+      font-size: 3rem;
+      color: var(--verde);
+      cursor: pointer;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .inicio {
+
+      height: 500px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative;
+      align-items: center;
+      left: 0;
+      color: #f5f6fa;
+      font-size: 1.2rem;
+      top: 50px;
+      margin-bottom: 40px;
+      padding: auto;
+      background-size: cover;
+      background-position: center;
+      min-width: 400px;
+      min-height: auto;
+      max-width: 100%;
+      max-height: 500px;
+      flex-wrap: wrap;
+      background-image: linear-gradient(rgba(54, 53, 52, 0.5), rgba(59, 59, 54, 0.5)),
+        url("../img/fondo-imagen-home.jpg");
+
+    }
+
+    .inicio .inicio-div {
+
+      width: 50%;
+      height: auto;
+
+    }
+
+    .inicio img {
+      height: 400px;
+      width: 400px;
+
+
+    }
+
+    .inicio .inicio-div h3 span {
+      font-size: 50px;
+      color: var(--color-logo);
+
+    }
+
+    .inicio .inicio-div h3 span i {
+
+      color: var(--color-logo);
+      width: 5px;
+      height: 5px;
+
+    }
+
+    .inicio .inicio-div .btn {
+
+
+      color: var(--color-logo);
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      border-radius: 15px;
+      border: 2px solid var(--color-logo);
+      padding: 5px;
+      height: auto;
+      width: 200px;
+      margin: 10px;
+    }
+
+    .inicio .inicio-div .btn:hover {
+
+
+      background-color: var(--color-logo);
+      color: aliceblue;
+
+
+
+    }
+
+    .main {
+      background-color: var(--color-logo);
+      height: auto;
+      position: relative;
+      top: 40px;
+      left: 0;
+    }
+
+
+    .main .menu-div {
+
+
+
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+
+    }
+
+    .main .titulo h3 {
+      text-align: center;
+      color: black;
+      font-size: 3rem;
+      font-family: serif;
+      margin: 50px;
+      position: relative;
+      left: 10px;
+      top: 50px;
+      font-weight: bold;
+    }
+
+
+    .main .menu-div .card-menu {
+      width: 300px;
+      padding: 5px;
+      margin: 70px;
+      border-radius: 5px;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+
+    }
+
+    .main .menu-div .card-menu img {
+      width: 100%;
+      height: 100%;
+      margin: 1px;
+      padding: 2px;
+      border-radius: 10px;
+
+    }
+
+    .main .menu-div .card-menu span {
+
+      display: block;
+      width: auto;
+      text-align: center;
+      height: auto;
+      font-size: 2rem;
+      font-weight: bold;
+      align-items: center;
+    }
+
+    .main .menu-div .card-menu h3 {
+
+      font-size: 2.8rem;
+      font-family: sans-serif;
+      margin: 1px;
+      padding: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .main .menu-div .card p {
+      padding: 10px;
+      font-size: 12px;
+      font-family: serif;
+      align-items: center;
+      display: block;
+
+
+    }
+
+    .main .menu-div .card-menu p {
+
+      padding: 5px;
+      margin: 14px;
+
+    }
+
+    .main .menu-div .card-menu button {
+
+      padding: 5px;
+
+      height: 30px;
+      width: 100%;
+      border-radius: 4px;
+      border: transparent;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+
+    .main .menu-div .card-menu:hover {
+      transform: translateY(-15px);
+      transition: 0.6s;
+
+      border-radius: 20px;
+      background: var(--color-logo);
+      box-shadow: 5px 5px 0px #e67300,
+        -5px -5px 0px #f58d25;
+    }
+
+    @media(max-width:768px) {
+      html {
+        font-size: 5px;
+      }
+
+      header label {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+
+      }
+
+      header .navbar a {
+        display: block;
+        margin: 2rem 0;
+        font-size: 2rem;
+      }
+
+      header input:checked~.navbar {
+        transform: scaleY(1);
+        opacity: 1;
+      }
+
+      header input:checked~label::before {
+        content: '\f00d';
+      }
+
+      header .redes {
+        display: none;
+
+      }
+
+      .inicio img {
+
+        display: none;
+      }
+
+      .inicio .inicio-div {
+        width: 350px;
+        height: 200px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .inicio .inicio-div p {
+
+        font-size: 2rem;
+      }
+
+      .inicio .inicio-div h3 span {
+
+        font-size: 5rem;
+      }
+
+      .inicio {
+
+        background-image: none;
+      }
+
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /*nosotros */
+
+    .nosotros-div {
+
+      padding-top: 75px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+
+    }
+
+    .nosotros-div .titulo-nosotros h3 {
+
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: serif;
+
+    }
+
+    .nosotros-div .titulo-nosotros {
+      color: var(--color-logo);
+      padding: 15px;
+      margin: 15px;
+
+
+    }
+
+    
+
+    .contact-form-content {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+
+
+    }
+
+    .contact-form-content .title {
+      font-size: 3rem;
+      font-family: serif;
+      font-weight: bold;
+      color: var(--color-logo);
+      padding: 1rem;
+    }
+
+    .contact-form-content form {
+
+      height: auto;
+      width: 800px;
+      margin: 40px;
+      padding: 40px;
+
+      border-radius: 10px;
+      background-color: #f5f6fa;
+
+    }
+
+    .contact-form-content form input {
+
+
+      padding: 15px;
+      margin: 14px;
+      border: transparent;
+
+    }
+
+    .contact-form-content form textarea {
+
+      padding: 15px;
+      margin: 14px;
+      border: transparent;
+
+    }
+
+    .contact-form-content form .container {
+
+      justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contact-form-content form .container button {
+      width: 200px;
+      height: auto;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .contact-form-content-reserva {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+    }
+
+    .contact-form-content-reserva .title {
+
+
+      color: var(--color-logo);
+      padding: 1rem;
+
+    }
+
+    .contact-form-content-reserva .title h2 {
+      font-size: 3rem;
+      font-family: serif;
+      font-weight: bold;
+    }
+
+    .contact-form-content-reserva form {
+
+      height: auto;
+      width: 800px;
+      margin: 40px;
+      padding: 40px;
+      border-radius: 10px;
+      background-color: #f5f6fa;
+
+    }
+
+    .contact-form-content-reserva form input {
+
+      width: 100%;
+      padding: 15px;
+      margin: 14px;
+      border: transparent;
+    }
+
+
+    .contact-form-content-reserva form .single-contact-info {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .container-fluid footer button {
+      background-color: var(--color-logo);
+    }
