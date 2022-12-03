@@ -33,8 +33,8 @@
         <h1 class="h3 mb-3 fw-normal">INICIAR SESIÓN </h1>
 
         <div class="form-floating">
-		    <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario">
-        <label for="username">Nombre de usuario o email</label>  
+		    <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su  emai">
+        <label for="username">Ingrese su  email</label>  
       </div>
         <div class="form-floating">
 		    <input type="password" class="form-control" id="password" name="password" placeholder="Contrase&ntilde;a">

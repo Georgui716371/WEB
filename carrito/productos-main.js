@@ -1,8 +1,6 @@
 //se captura todo el dom de los cards para heredar los eventos
-
 var myModal = document.getElementById('myModal')
 var myInput = document.getElementById('myInput')
-
 const cards = document.getElementById("cards");
 const items = document.getElementById("items");
 const footer = document.getElementById("footer");
@@ -10,6 +8,8 @@ const templateCard = document.getElementById("template-card").content;
 const templateCarrito = document.getElementById("template-carrito").content;
 const templateFooter = document.getElementById("template-footer").content;
 const fragment = document.createDocumentFragment();
+const boton_procesarCompra=document.getElementById('procesarCompra');
+
 let carrito = {};
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
@@ -78,7 +78,7 @@ const setCarrito = (objeto) => {
 
 };
 const pintarCarrito = () => {
-  console.log(carrito);
+  console.log('---- carro'+carrito);
   items.innerHTML = "";
   Object.values(carrito).forEach((producto) => {
     templateCarrito.querySelector("th").textContent = producto.id;
@@ -92,9 +92,6 @@ const pintarCarrito = () => {
   });
   items.appendChild(fragment);
   pintarFooter();
-
-  
-
 };
 
 const pintarFooter = () => {
@@ -144,3 +141,12 @@ const btnAccion = e => {
     }
     e.stopPropagation();
   };
+
+  boton_procesarCompra.addEventListener('click',()=>{
+
+        alert("Se envio su compra ");
+
+
+  });
+
+  
